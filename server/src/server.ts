@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true })); // Optional, if you need to parse URL-encoded data
 
 // Serve static files from the client/dist folder
-app.use(express.static('client/dist'));
+app.use(express.static('../../../client/dist/index.html'));
 
 // Connect the routes
 app.use(routes);
