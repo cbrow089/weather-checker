@@ -136,7 +136,7 @@ private parseForecastWeather(forecastData: any): Forecast[] {
   
   // Create an array to hold the next 5 days starting from tomorrow
   const nextFiveDays: string[] = [];
-  for (let i = 1; i <= 5; i++) { // Start from 1 to get tomorrow's date
+  for (let i = 0; i <= 5; i++) { // Start from 1 to get tomorrow's date
     const nextDate = new Date(currentWeatherDate);
     nextDate.setDate(currentWeatherDate.getDate() + i);
     nextFiveDays.push(nextDate.toISOString().split('T')[0]); // Store dates in YYYY-MM-DD format

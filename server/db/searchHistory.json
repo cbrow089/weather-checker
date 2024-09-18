@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Norfolk",
+    "id": "0a38bcc9-0f84-42f0-9f0e-c36c6f270ffd"
+  },
+  {
+    "name": "New York City",
+    "id": "18508c24-ad96-4163-ba02-1d505eeeba06"
+  },
+  {
+    "name": "london",
+    "id": "c7c00f95-fb77-4018-b22a-47d6ea34a6ae"
+  },
+  {
+    "name": "Staunton",
+    "id": "073f5034-705c-42d9-bf6f-97ff26884293"
+  },
+  {
+    "name": "Stuarts Draft",
+    "id": "affa608c-066d-4469-b04e-2dbe6d63bc15"
+  },
+  {
+    "name": "San Diego",
+    "id": "f6fa4b80-c9f7-4bfb-997e-413b1d920dc6"
+  },
+  {
+    "name": "Nashville",
+    "id": "0504513f-45dc-4282-856a-740f6e96b148"
+  }
+]
