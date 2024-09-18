@@ -16,7 +16,7 @@ class HistoryService {
   constructor() {
     const __filename = fileURLToPath(import.meta.url);
     const __dirname = path.dirname(__filename);
-    this.filePath = path.join(__dirname, '../data/searchHistory.json');
+    this.filePath = path.join(__dirname, '../service/searchHistory.json');
   }
 
   generateId() {
