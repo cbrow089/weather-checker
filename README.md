@@ -1,10 +1,15 @@
 
   # Weather-Checker [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-    
+
+
+  ## Deployed Site Link
+  [Weather-Checker](https://weather-checker-yshw.onrender.com)
+
   ## Description
   * Weather-Checker is an application designed to take user inputs for a city and display the current weather and five day projected forecast for the weather.  I keeps a history of your previous searched cities and allows the user to delete that history if needed. 
     
   ## Table of Contents
+  - [Website](#deployed-site-link)
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
@@ -12,6 +17,9 @@
   - [Tests](#tests)
   - [Contact](#questions)
     
+  ## Screenshot of deployed site on Render.com
+  ![Screenshot of App](/assets/imgs/weather-checker.JPG)
+  
   ## Installation
   * This is a backend system using express.js and node.  I utilizes several npm packages that must be intstalled for this to run locally such as axios, dotenv, fs, path, and uuidv4.  This application is also deployed via Render and will be hosted and live for users to access at the link below.
     
